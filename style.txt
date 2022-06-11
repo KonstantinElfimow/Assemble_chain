@@ -1,0 +1,45 @@
+* {
+    background-color: white;
+}
+
+QTableWidget  {
+    border: 0px;
+    padding: 0px;
+    background-color: white;}
+
+#MenuLabel {
+    font: bold 40px;
+    qproperty-alignment: AlignCenter;
+    color: #ED6799;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+#MenuButton {
+    font: bold 16px;
+    background-color: rgb(191, 191, 191);
+    color: white;
+    padding: 2px;
+    border-radius: 4px;}
+#MenuButton:hover {
+    color: black;}
+
+#WindowButton {
+    font: 14px;
+    border-style: outset;
+    color: gray;}
+#WindowButton:hover {
+    color: black;
+    cursor: pointer;}
+
+
+#InfoLabel {
+    font: bold 25px;
+    qproperty-alignment: AlignRight;}
+
+#InfoLabelAdd {
+    font: 12px;
+    color: gray;
+    qproperty-alignment: AlignRight;}
+
